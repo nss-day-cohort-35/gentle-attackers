@@ -1,14 +1,16 @@
 
-body {
+ body {
     margin-top: 80px;
     font-family: sans-serif;
-    position: relative;
-    margin: 0;
-}
+    background-color: white;
+    font-size: 18px;
+    line-height: 30px;
+   
+} 
 /* Navbar Styling */
 header {
     height: 80px;
-    background-color: rgb(96, 91, 91);
+    background-color:#0a2736;
     top: 0;
     left: 0;
     right: 0;
@@ -21,20 +23,19 @@ header {
 
 header li {
     margin: 20px;
+    color:white;
+   
 }
 
 header * {
     display: inline;
 }
 
-header li a {
-    color: white;
-    text-decoration: none;
+header li:hover {
+    opacity: 0.7;
+    transition: .3s;
 }
 
-header li a:hover {
-    opacity: 0.7;
-}
 
 /* Footer Styling */
 footer {
@@ -79,6 +80,7 @@ hr {
 .navbar > li {
     display: inline-flex;
     margin-right: 30px;
+
 }
 
 h1 {
@@ -120,14 +122,6 @@ img {
 }
 
 
-
-body{
-    background: rgb(245, 245, 245);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-}
-
 .social-icons li {
     display: inline-block;
     margin-bottom: 5px;
@@ -161,11 +155,11 @@ body{
   opacity: 0.7;
 }
 
-h1 {
+/* h1 {
     color:black;
     font-size: 50px;
     text-align: left;
-}
+} */
 
 h2 {
     color:black;
@@ -173,34 +167,31 @@ h2 {
     margin-bottom: 0px;
 }
 
+
 .leo_bio_banner{
-    border: solid 1px rgb(82, 82, 82);
+    /* border: solid 1px rgb(82, 82, 82); */
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     background: rgb(240, 240, 240)
 }
 
 .img_banner {
-    float: left;
-    padding:10px;
-    width: 500px;
-    height: 280px;
-    object-fit: contain;
+    padding:0;
+    width: 100%;
+    height: 50%;
 }
 
 .top_gross{
-    padding-top:30px;
+    padding-top:2px;
 }
-.leo_top_gross{
-    display: block;
-}
+
 
 .leo_top_gross {
     display: flex;
     flex-flow: row wrap;
     justify-content:center;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     }
 
 .gross_image > img {
@@ -215,7 +206,7 @@ h2 {
     flex-flow: row wrap;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .leo_awards > div {
@@ -224,10 +215,12 @@ h2 {
     margin-left: 20px;
     margin-bottom: 20px;
     width: 30%;
+    padding: 2px;
     min-width: 400px;
     text-align: center;
     line-height: 1px;
     background-color: rgb(219, 218, 218);
+    background: cover;
 }
  
 .leo_charities_foundations {
