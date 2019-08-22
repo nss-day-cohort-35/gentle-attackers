@@ -1,0 +1,132 @@
+body{
+    background: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: right;
+    text-align: center;
+ }
+
+ .fa-facebook {
+     background: #3B5998;
+     color: white;
+ }
+
+ .fa-twitter {
+     background: #55ACEE;
+ }
+
+ .fa-instagram {
+     background: linear-gradient(blue, red, yellow);
+ }
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+ }
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+h1 {
+    color:black;
+    font-size: 50px;
+    text-align: left;
+}
+
+h2 {
+    color:black;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.leo_bio_banner{
+    border: solid 1px rgb(82, 82, 82);
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(240, 240, 240)
+}
+
+.img_banner {
+    float: left;
+    padding:10px;
+    width: 500px;
+    height: 280px;
+    object-fit: contain;
+}
+
+.top_gross{
+    padding-top:30px;
+}
+.leo_top_gross{
+    display: block;
+}
+
+.leo_top_gross {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    }
+
+.gross_image > img {
+    padding: 0px 20px;
+    height:300px;
+    width:400px;
+    
+}
+
+.leo_awards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.leo_awards > div {
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    min-width: 400px;
+    text-align: center;
+    line-height: 1px;
+    background-color: rgb(219, 218, 218);
+}
+ 
+.leo_charities_foundations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    
+  
+}
+
+.leo_charities_foundations_item > ul {
+   list-style-type: none;
+  
+}
+
+.leo_charities_foundations_item {
+    flex-flow: row wrap;
+    margin-left: 100px;
+  
+}
+
+a:link {
+    text-decoration: none;
+}
+
