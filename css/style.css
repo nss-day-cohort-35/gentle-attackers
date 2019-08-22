@@ -8,17 +8,8 @@
 
 }
 
-/*--------------------    Navbar Styling   ------------------*/
-header {
-    height: 80px;
-    background-color: #0a2736;
-    background-color: white;
-    font-size: 18px;
-    line-height: 30px;
-   
-} 
-   
-/* Navbar Styling */
+
+/*---------------------------- Navbar Styling ----------------*/
 header {
     height: 80px;
     background-color:#0a2736;
@@ -36,7 +27,6 @@ header {
 header li {
     color: white;
     margin: 20px;
-    color: white;
 }
 
 header * {
@@ -59,7 +49,7 @@ footer {
     margin-top: auto;
     
 }
-/* Hero Image Styling */
+/*----------------------- Hero Image Styling --------------------*/
 .hero {
     margin-top: 100px;
     display: flex;
@@ -133,7 +123,7 @@ footer {
 }
 
 
-/*------------------------------------------------------------*/
+/*------------------     News Styling    ----------------------*/
 
 .navbar > li {
     display: inline-flex;
@@ -198,40 +188,19 @@ img {
 }
 
 
-body{
+body {
     background: rgb(245, 245, 245);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 30px;
 }
-
-.social-icons li {
-    display: inline-block;
-    margin-bottom: 5px;
-    vertical-align: right;
-    text-align: center;
- }
-
- .fa-facebook {
-     background: #3B5998;
-     color: white;
- }
-
- .fa-twitter {
-     background: #55ACEE;
- }
-
-
-/* h1 {
-
--------------------------------------------------------
-
+/*------------------ Career Styling -----------------------*/
 
 h1 {
     color:black;
     font-size: 50px;
     text-align: left;
-} */
+} 
 
 h2 {
     color:black;
@@ -241,7 +210,7 @@ h2 {
 
 
 .leo_bio_banner{
-    /* border: solid 1px rgb(82, 82, 82); */
+    border: solid 1px rgb(82, 82, 82);
     border-radius: 5px;
     padding: 20px;
     background: rgb(240, 240, 240)
