@@ -1,5 +1,5 @@
 
-body {
+ body {
     margin-top: 80px;
     font-family: sans-serif;
     position: relative;
@@ -24,15 +24,12 @@ header {
 header li {
     margin: 20px;
     color: white;
+    color:white;
+   
 }
 
 header * {
     display: inline;
-}
-
-header li a {
-    color: white;
-    text-decoration: none;
 }
 
 header li:hover {
@@ -129,6 +126,7 @@ footer {
 .navbar > li {
     display: inline-flex;
     margin-right: 30px;
+
 }
 
 h1 {
@@ -178,13 +176,28 @@ body{
     line-height: 30px;
 }
 
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: right;
+    text-align: center;
+ }
+
+ .fa-facebook {
+     background: #3B5998;
+     color: white;
+ }
+
+ .fa-twitter {
+     background: #55ACEE;
+ }
 
 
-h1 {
+/* h1 {
     color:black;
     font-size: 50px;
     text-align: left;
-}
+} */
 
 h2 {
     color:black;
@@ -192,34 +205,31 @@ h2 {
     margin-bottom: 0px;
 }
 
+
 .leo_bio_banner{
-    border: solid 1px rgb(82, 82, 82);
+    /* border: solid 1px rgb(82, 82, 82); */
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     background: rgb(240, 240, 240)
 }
 
 .img_banner {
-    float: left;
-    padding:10px;
-    width: 500px;
-    height: 280px;
-    object-fit: contain;
+    padding:0;
+    width: 100%;
+    height: 50%;
 }
 
 .top_gross{
-    padding-top:30px;
+    padding-top:2px;
 }
-.leo_top_gross{
-    display: block;
-}
+
 
 .leo_top_gross {
     display: flex;
     flex-flow: row wrap;
     justify-content:center;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     }
 
 .gross_image > img {
@@ -234,7 +244,7 @@ h2 {
     flex-flow: row wrap;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .leo_awards > div {
@@ -243,10 +253,12 @@ h2 {
     margin-left: 20px;
     margin-bottom: 20px;
     width: 30%;
+    padding: 2px;
     min-width: 400px;
     text-align: center;
     line-height: 1px;
     background-color: rgb(219, 218, 218);
+    background: cover;
 }
  
 .leo_charities_foundations {
