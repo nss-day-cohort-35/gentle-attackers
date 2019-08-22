@@ -1,5 +1,5 @@
 
-body {
+ body {
     margin-top: 80px;
     font-family: sans-serif;
     position: relative;
@@ -7,10 +7,20 @@ body {
     background-color: white;
 
 }
+
+/*--------------------    Navbar Styling   ------------------*/
+header {
+    height: 80px;
+    background-color: #0a2736;
+    background-color: white;
+    font-size: 18px;
+    line-height: 30px;
+   
+} 
 /* Navbar Styling */
 header {
     height: 80px;
-    background-color: rgb(96, 91, 91);
+    background-color:#0a2736;
     top: 0;
     left: 0;
     right: 0;
@@ -25,6 +35,7 @@ header {
 header li {
     color: white;
     margin: 20px;
+    color: white;
 }
 
 header * {
@@ -37,9 +48,9 @@ header li:hover {
     transition: .3s;
 }
 
-/* Footer Styling */
+/*---------------------   Footer Styling    --------------------*/
 footer {
-    background-color: rgb(96, 91, 91);    left: 0;
+    background-color: #0a2736;   left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -55,31 +66,78 @@ footer {
     align-items: center;
     flex-direction: column;
 }
-/* Collaborations Styling */
+
+.banner {
+    margin: 0;
+}
+
+.personalBanner {
+    margin: 0;
+    width: 100%;
+}
+
+.personalHero {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+/*------------------------  Collaborations Styling  ------------*/
 .collaborations {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #27424F;
+    margin: 0;
 }
 
 .collaborations img {
     width: 90%;
     height: 80%;
+    border-radius: 5px;
 }
 
 .collabImages {
     display: flex;
     flex-direction: row;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
 
-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right grey, black, grey);
+/*--------------------- Family Styling -------------------------*/
+.family {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.family img {
+    width: 90%;
+    height: 80%;
+}
+
+.famImages {
+    display: flex;
+    flex-direction: row;
+}
+
+/* --------------------- Personal Styling ---------------------*/
+
+.personal {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+/*------------------------------------------------------------*/
+
 .navbar > li {
     display: inline-flex;
     margin-right: 30px;
+
 }
 
 .title h1 {
@@ -154,32 +212,12 @@ img {
      background: #55ACEE;
  }
 
- .fa-instagram {
-     background: linear-gradient(blue, red, yellow);
- }
-
- .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
- }
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-
--------------------------------------------------------
-
 
 h1 {
     color:black;
     font-size: 50px;
     text-align: left;
-}
+} */
 
 h2 {
     color:black;
@@ -187,34 +225,31 @@ h2 {
     margin-bottom: 0px;
 }
 
+
 .leo_bio_banner{
-    border: solid 1px rgb(82, 82, 82);
+    /* border: solid 1px rgb(82, 82, 82); */
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     background: rgb(240, 240, 240)
 }
 
 .img_banner {
-    float: left;
-    padding:10px;
-    width: 500px;
-    height: 280px;
-    object-fit: contain;
+    padding:0;
+    width: 100%;
+    height: 50%;
 }
 
 .top_gross{
-    padding-top:30px;
+    padding-top:2px;
 }
-.leo_top_gross{
-    display: block;
-}
+
 
 .leo_top_gross {
     display: flex;
     flex-flow: row wrap;
     justify-content:center;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     }
 
 .gross_image > img {
@@ -229,7 +264,7 @@ h2 {
     flex-flow: row wrap;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .leo_awards > div {
@@ -238,10 +273,12 @@ h2 {
     margin-left: 20px;
     margin-bottom: 20px;
     width: 30%;
+    padding: 2px;
     min-width: 400px;
     text-align: center;
     line-height: 1px;
     background-color: rgb(219, 218, 218);
+    background: cover;
 }
  
 .leo_charities_foundations {
