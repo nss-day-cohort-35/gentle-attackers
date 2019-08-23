@@ -8,24 +8,15 @@
 
 }
 
-/*--------------------    Navbar Styling   ------------------*/
-header {
-    height: 80px;
-    background-color: #0a2736;
-    background-color: white;
-    font-size: 18px;
-    line-height: 30px;
-   
-} 
-   
-/* Navbar Styling */
+
+/*---------------------------- Navbar Styling ----------------*/
 header {
     height: 80px;
     background-color:#0a2736;
     top: 0;
     left: 0;
     right: 0;
-    position: fixed;
+    position: static;
     display: flex;
     align-items: center;
     box-shadow: 0 0 15px 0 black;
@@ -36,7 +27,6 @@ header {
 header li {
     color: white;
     margin: 20px;
-    color: white;
 }
 
 header * {
@@ -59,7 +49,7 @@ footer {
     margin-top: auto;
     
 }
-/* Hero Image Styling */
+/*----------------------- Hero Image Styling --------------------*/
 .hero {
     margin-top: 100px;
     display: flex;
@@ -133,7 +123,7 @@ footer {
 }
 
 
-/*------------------------------------------------------------*/
+/*------------------     News Styling    ----------------------*/
 
 .navbar > li {
     display: inline-flex;
@@ -141,23 +131,32 @@ footer {
 
 }
 
-.title h1 {
+.title {
     text-align: center;
-    font-family: sans-serif;
-    margin: 25px 0; 
+    font-family: sans-serif; 
+    margin-top: 80px;
+    color: rgb(0, 0, 0)
 }
 
 .headline {
     text-align: center;
 }
 
-p {
+.article-preview {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-family: sans-serif;
-    text-align: center;
-    margin: 10px;
-    max-width: 342px;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.article-divider {
+    margin-top: 40px;
+    max-width: 150px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 section {
@@ -165,7 +164,14 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 3em 0;
+}
+
+.upper {
+    margin-bottom: 40px;
+}
+
+.lower {
+    margin-top: 40px;
 }
 
 hr.divider {
@@ -175,7 +181,6 @@ hr.divider {
 }
 
 img {
-    margin: auto 0;
     width: 360px;
     height: 452px;
     object-fit: cover;   
@@ -184,10 +189,10 @@ img {
 
 .news_block {
     display: flex;
-    flex-basis: 30%;
+    flex-basis: 33%;
     padding: 1px;
     flex-direction: column;
-    object-fit: contain;
+    max-width: 360px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s; 
     background-color: whitesmoke;
@@ -195,43 +200,23 @@ img {
 
 .news_block:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.01)
 }
 
 
-body{
+body {
     background: rgb(245, 245, 245);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 30px;
 }
-
-.social-icons li {
-    display: inline-block;
-    margin-bottom: 5px;
-    vertical-align: right;
-    text-align: center;
- }
-
- .fa-facebook {
-     background: #3B5998;
-     color: white;
- }
-
- .fa-twitter {
-     background: #55ACEE;
- }
-
-
-/* h1 {
-
--------------------------------------------------------
-
+/*------------------ Career Styling -----------------------*/
 
 h1 {
     color:black;
     font-size: 50px;
     text-align: left;
-} */
+} 
 
 h2 {
     color:black;
@@ -241,7 +226,7 @@ h2 {
 
 
 .leo_bio_banner{
-    /* border: solid 1px rgb(82, 82, 82); */
+    border: solid 1px rgb(82, 82, 82);
     border-radius: 5px;
     padding: 20px;
     background: rgb(240, 240, 240)
