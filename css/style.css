@@ -9,6 +9,9 @@
 
 }
 
+hr {
+    width: 90%;
+}
 
 /*---------------------------- Navbar Styling ----------------*/
 header {
@@ -26,6 +29,15 @@ header {
     z-index: 1;
 }
 
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    padding: 0;
+    margin: 0;
+    object-fit: contain;
+    margin-right: 400px;
+}
 header li {
     color: white;
     margin: 20px;
@@ -84,8 +96,17 @@ footer {
     align-items: center;
     background-color: #27424F;
     margin: 0;
+    color: whitesmoke;
 }
 
+.collaborations > h2 {
+    color: white;
+    padding-bottom: 1em;
+}
+
+.collab-name {
+    text-align: center;
+}
 .collaborations img {
     width: 90%;
     height: 80%;
@@ -99,11 +120,19 @@ footer {
     padding-left: 20px;
 }
 
+.header-alias {
+    text-align: center;
+}
+
+.country-header {
+    text-align: center;
+}
 /*--------------------- Family Styling -------------------------*/
 .family {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 25px;
 }
 
 .family img {
@@ -116,6 +145,10 @@ footer {
     flex-direction: row;
 }
 
+.family > h2 {
+    padding-bottom: 1em; 
+}
+
 /* --------------------- Personal Styling ---------------------*/
 
 .personal {
@@ -124,6 +157,16 @@ footer {
     justify-content: center;
 }
 
+.earlylife {
+    margin-right: 100px;
+}
+
+.residence {
+    margin-left: 100px;
+}
+.early {
+    text-align: center;
+}
 
 /*------------------     News Styling    ----------------------*/
 
@@ -133,23 +176,32 @@ footer {
 
 }
 
-.title h1 {
+.title {
     text-align: center;
-    font-family: sans-serif;
-    margin: 25px 0; 
+    font-family: sans-serif; 
+    margin-top: 120px;
+    color: rgb(0, 0, 0)
 }
 
 .headline {
     text-align: center;
 }
 
-p {
+.article-preview {
     display: flex;
     justify-content: center;
     font-family: sans-serif;
     text-align: center;
-    margin: 10px;
-    max-width: 342px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.article-divider {
+    margin-top: 30px;
+    max-width: 150px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 section {
@@ -157,7 +209,14 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 3em 0;
+}
+
+.upper {
+    margin-bottom: 40px;
+}
+
+.lower {
+    margin-top: 40px;
 }
 
 hr.divider {
@@ -166,8 +225,7 @@ hr.divider {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-img {
-    margin: auto 0;
+.news-image {
     width: 360px;
     height: 452px;
     object-fit: cover;   
@@ -176,10 +234,9 @@ img {
 
 .news_block {
     display: flex;
-    flex-basis: 30%;
-    padding: 1px;
+    flex-basis: 33%;
     flex-direction: column;
-    object-fit: contain;
+    max-width: 360px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s; 
     background-color: whitesmoke;
@@ -187,6 +244,7 @@ img {
 
 .news_block:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.01)
 }
 
 
