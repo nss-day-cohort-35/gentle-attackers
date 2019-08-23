@@ -8,6 +8,9 @@
 
 }
 
+hr {
+    width: 90%;
+}
 
 /*---------------------------- Navbar Styling ----------------*/
 header {
@@ -24,6 +27,15 @@ header {
     background-color: #0a2736
 }
 
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    padding: 0;
+    margin: 0;
+    object-fit: contain;
+    margin-right: 400px;
+}
 header li {
     color: white;
     margin: 20px;
@@ -82,8 +94,17 @@ footer {
     align-items: center;
     background-color: #27424F;
     margin: 0;
+    color: whitesmoke;
 }
 
+.collaborations > h2 {
+    color: white;
+    padding-bottom: 1em;
+}
+
+.collab-name {
+    text-align: center;
+}
 .collaborations img {
     width: 90%;
     height: 80%;
@@ -97,11 +118,19 @@ footer {
     padding-left: 20px;
 }
 
+.header-alias {
+    text-align: center;
+}
+
+.country-header {
+    text-align: center;
+}
 /*--------------------- Family Styling -------------------------*/
 .family {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 25px;
 }
 
 .family img {
@@ -114,6 +143,10 @@ footer {
     flex-direction: row;
 }
 
+.family > h2 {
+    padding-bottom: 1em; 
+}
+
 /* --------------------- Personal Styling ---------------------*/
 
 .personal {
@@ -122,6 +155,16 @@ footer {
     justify-content: center;
 }
 
+.earlylife {
+    margin-right: 100px;
+}
+
+.residence {
+    margin-left: 100px;
+}
+.early {
+    text-align: center;
+}
 
 /*------------------     News Styling    ----------------------*/
 
