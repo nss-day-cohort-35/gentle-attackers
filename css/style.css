@@ -135,7 +135,7 @@ footer {
 .title {
     text-align: center;
     font-family: sans-serif; 
-    margin-top: 80px;
+    margin-top: 120px;
     color: rgb(0, 0, 0)
 }
 
@@ -147,7 +147,7 @@ footer {
     display: flex;
     justify-content: center;
     font-family: sans-serif;
-    text-align: left;
+    text-align: center;
     font-size: 15px;
     margin-top: 15px;
     margin-left: 10px;
@@ -181,7 +181,7 @@ hr.divider {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-img {
+.news-image {
     width: 360px;
     height: 452px;
     object-fit: cover;   
@@ -191,7 +191,6 @@ img {
 .news_block {
     display: flex;
     flex-basis: 33%;
-    padding: 1px;
     flex-direction: column;
     max-width: 360px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
