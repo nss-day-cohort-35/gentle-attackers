@@ -1,4 +1,5 @@
 
+ 
  body {
     margin-top: 80px;
     font-family: sans-serif;
@@ -8,17 +9,8 @@
 
 }
 
-/*--------------------    Navbar Styling   ------------------*/
-header {
-    height: 80px;
-    background-color: #0a2736;
-    background-color: white;
-    font-size: 18px;
-    line-height: 30px;
-   
-} 
-   
-/* Navbar Styling */
+
+/*---------------------------- Navbar Styling ----------------*/
 header {
     height: 80px;
     background-color:#0a2736;
@@ -30,13 +22,13 @@ header {
     align-items: center;
     box-shadow: 0 0 15px 0 black;
     justify-content: flex-end;
-    background-color: #0a2736
+    background-color: #0a2736;
+    z-index: 1;
 }
 
 header li {
     color: white;
     margin: 20px;
-    color: white;
 }
 
 header * {
@@ -59,7 +51,7 @@ footer {
     margin-top: auto;
     
 }
-/* Hero Image Styling */
+/*----------------------- Hero Image Styling --------------------*/
 .hero {
     margin-top: 100px;
     display: flex;
@@ -133,7 +125,7 @@ footer {
 }
 
 
-/*------------------------------------------------------------*/
+/*------------------     News Styling    ----------------------*/
 
 .navbar > li {
     display: inline-flex;
@@ -198,40 +190,19 @@ img {
 }
 
 
-body{
+body {
     background: rgb(245, 245, 245);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 30px;
 }
-
-.social-icons li {
-    display: inline-block;
-    margin-bottom: 5px;
-    vertical-align: right;
-    text-align: center;
- }
-
- .fa-facebook {
-     background: #3B5998;
-     color: white;
- }
-
- .fa-twitter {
-     background: #55ACEE;
- }
-
-
-/* h1 {
-
--------------------------------------------------------
-
+/*------------------ Career Styling -----------------------*/
 
 h1 {
     color:black;
     font-size: 50px;
     text-align: left;
-} */
+} 
 
 h2 {
     color:black;
@@ -239,22 +210,40 @@ h2 {
     margin-bottom: 0px;
 }
 
-
-.leo_bio_banner{
-    /* border: solid 1px rgb(82, 82, 82); */
-    border-radius: 5px;
-    padding: 20px;
-    background: rgb(240, 240, 240)
+.leo_bio{
+    display: block;
+    width: 100%;
+    margin: 0 0;
 }
-
-.img_banner {
-    padding:0;
+.leo_bio_banner{
+    margin-top:80px;
+    background-image: url('../images/leo_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 50%;
+    padding-bottom: 20%; /* 2:1 */
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: flex-end;
+}
+
+.leo_bio_banner > div{
+    margin-top:300px;
+    margin-right: 30px; 
+    color:white;
+    position: relative;
+    width: 500px;
+    max-width:500px;
+    font-size:20px;
 }
 
 .top_gross{
     padding-top:2px;
+    display: block;
+    width:90%;
+    margin: auto;
 }
 
 
@@ -273,6 +262,11 @@ h2 {
     
 }
 
+.awards{
+    display: block;
+    width:90%;
+    margin: auto;
+}
 .leo_awards {
     display: flex;
     flex-flow: row wrap;
@@ -287,7 +281,7 @@ h2 {
     margin-left: 20px;
     margin-bottom: 20px;
     width: 30%;
-    padding: 2px;
+    padding: 2px 2px 20px 2px;
     min-width: 400px;
     text-align: center;
     line-height: 1px;
@@ -295,6 +289,13 @@ h2 {
     background: cover;
 }
  
+.leo_charities
+{
+    display: block;
+    width:90%;
+    margin: auto;
+}
+
 .leo_charities_foundations {
     display: flex;
     flex-flow: row wrap;
@@ -309,12 +310,25 @@ h2 {
 }
 
 .leo_charities_foundations_item {
-    flex-flow: row wrap;
     margin-left: 100px;
   
 }
 
 a:link {
     text-decoration: none;
+    
 }
 
+.social-icons
+{
+padding-top: 20px;
+}
+.social-icons > li {
+    display: inline-flex;
+    margin-right: 30px;
+    font-size:30px;
+}
+footer li:hover {
+    opacity: 0.7;
+    transition: .3s;
+}
